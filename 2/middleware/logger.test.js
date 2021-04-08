@@ -1,3 +1,5 @@
+require('dotenv').config({ path: process.cwd() + '/.env.test'})
+
 const logger = require('./logger')
 
 jest.mock('../models')

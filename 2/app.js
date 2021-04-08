@@ -1,4 +1,8 @@
-require('dotenv').config()
+if (process.env.NODE_ENV === 'development') {
+  require('dotenv').config({ path: process.cwd() + '/.env'})
+} else if (process.env.NODE_ENV === 'test') {
+  require('dotenv').config({ path: process.cwd() + '/.env.test'})
+}
 
 const express = require("express");
 const cors = require('cors')

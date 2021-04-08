@@ -1,3 +1,5 @@
+require('dotenv').config({ path: process.cwd() + '/.env.test'})
+
 const httpMocks = require('node-mocks-http')
 const LogController = require('./index')
 

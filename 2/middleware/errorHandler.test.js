@@ -1,3 +1,5 @@
+require('dotenv').config({ path: process.cwd() + '/.env.test'})
+
 const errorHandler = require('./errorHandler')
 const httpMocks = require('node-mocks-http')
 

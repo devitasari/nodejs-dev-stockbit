@@ -1,6 +1,9 @@
+require('dotenv').config({ path: process.cwd() + '/.env.test'})
+
 const Log = require('./index')
 
 describe(`Log model testing`, () => {
+    
     test(`static create is method`, () => {
         expect(typeof Log.create).toBe('function')
     })

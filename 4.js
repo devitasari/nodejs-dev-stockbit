@@ -26,6 +26,7 @@ function anagram(arr) {
 
 
 // console.log(anagram(['kita', 'atik', 'tika']))
-console.log(anagram(['aki','kita', 'atik', 'tika', 'aku', 'kia', 'makan', 'kua', 'ikat', 'uak', 'kanma']))
+// console.log(anagram(['air', 'api', 'tanah']))
+// console.log(anagram(['aki','kita', 'atik', 'tika', 'aku', 'kia', 'makan', 'kua', 'ikat', 'uak', 'kanma']))
 
 
